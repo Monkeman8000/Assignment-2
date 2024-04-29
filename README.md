@@ -21,4 +21,4 @@ Here's how that goes down:
 2. Then, you tell this Handler to wait a bit with postDelayed({ . }, 5000), scheduling some task (stuffed in a lambda expression) to run after chilling for 5 seconds.
 
    Youtube video
-   
+   https://youtu.be/AXlttbuBR6U
