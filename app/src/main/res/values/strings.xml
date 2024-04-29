@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Assignment 2</string>
+    <string name="start">Start</string>
+    <string name="clean">Clean</string>
+    <string name="feed">Feed</string>
+    <string name="play">Play</string>
+    <string name="return_to_pet_page">Return to Pet page</string>
+</resources>
