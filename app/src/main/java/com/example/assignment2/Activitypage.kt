@@ -11,9 +11,6 @@ import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
 
 class Activitypage : AppCompatActivity() {
-    private var clickCount = 0
-    private var totalButtonCount = 3 // Change this to the total number of buttons on your screen
-
     @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -25,14 +22,21 @@ class Activitypage : AppCompatActivity() {
         val mytextview = findViewById<TextView>(R.id.textView)
         btnFeed.setOnClickListener {
             val intent = Intent(this, FeedActivity::class.java)
+            mytextview.text= "Feeding your pet"
+            // Updating Textview text here
             startActivity(intent)
+
         }
         btnclean.setOnClickListener {
             val intent = Intent(this, CleanActivity::class.java)
+            mytextview.text= "Washing your pet"
+            //Updating Textview text here
             startActivity(intent)
         }
         btnplay.setOnClickListener {
             val intent = Intent(this, PlayActivity::class.java)
+            mytextview.text= "Playing with your pet"
+            //Updating Textview text here
             startActivity(intent)
         }
 
